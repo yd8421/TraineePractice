@@ -7,6 +7,6 @@ DOC: 23-May-2024
 
 int main(){
 
-	printf("Hello World");
+	printf("\nHello World\n");
 	return 0;
 }
