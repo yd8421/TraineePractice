@@ -1,0 +1,34 @@
+1. Write a program to perform simple arithmetic operation on two integers.
+2. To calculate Area and Circumference of a circle
+3. write a  C program that performs temperature conversions between Celsius to Fahrenheit.
+4.  Write a program to convert Binary to decimal
+5. program to find given number is Odd or Even
+6. program to find largest of three numbers
+7. Write a program that takes a score (0-100) as input from the user and uses if statements to determine the 
+corresponding grade:
+90-100: A
+80-89: B
+70-79: C
+60-69: D
+Below 60: F
+Print the grade.
+
+8. Temperature Advice:
+Write a program that takes a temperature value as input and uses if statements to print advice based on the 
+temperature:
+Above 30: "It's hot outside, stay hydrated!"
+Between 20 and 30: "The weather is nice and warm."
+Between 10 and 19: "It's a bit chilly, wear a jacket."
+Below 10: "It's cold outside, stay warm!"
+
+9. BMI Calculator:
+Write a program that calculates the Body Mass Index (BMI) based on user input for weight (in kg) and height 
+(in meters). Use if statements to classify the BMI into categories:
+Below 18.5: Underweight
+18.5 to 24.9: Normal weight
+25 to 29.9: Overweight
+30 and above: Obesity
+
+10. Simple Calculator:
+Write a program that takes two numbers and an operator (+, -, *, /) as input and uses if statements to perform 
+the corresponding arithmetic operation. Print the result.

@@ -1,6 +1,7 @@
 
+
 /*
-Array input output 
+Array input and reverse output 
 Yug D
 DOC: 23-May-2024
 */
@@ -16,9 +17,11 @@ int main(){
 	for(int i=0; i<n; i++){
 		printf("Enter no%d: ",i+1);
 		scanf("%d",&arr[i]);
-	}
+	}	
+	printf("Printing array in reverse order:\n");
 	for(int i=n-1; i>=0; i--){
 		printf("%d\t",arr[i]);
 	}
+	printf("\n\n");
 	return 0;
 }

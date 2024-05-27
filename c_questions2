@@ -1,0 +1,81 @@
+
+1. Write a program that prompts the user for a positive integer and then computes the sum of all the digits of the number. For example, if the user enters 2784, then the program reports 21. If the user enters 59, then the program reports 14. The program should work for any number having one to ten digits.
+ 
+2. Write a program that prompts the user for a positive integer and then reports the closest integer having a whole number square root. For example, if the user enters 8, then the program reports 9. If the user enters 18, then the program reports 16.The program should work  for any number having one to seven digits.
+ 
+3. C program to check if a number is an automorphic number (a number whose square ends in the same digits as the number itself).
+
+Example:
+
+Consider the number 76.
+
+1. Calculate the square of the number:
+
+      76*76=5776
+
+2. Determine the number of digits in the original number:
+
+	Number of digits in 76 is 2.
+
+3. Therefore extract the last 2 digits from the square: (mod of 10 to the power 2)
+
+       5776 mod 100 = 76
+
+4. Compare the extracted digits with the original number:
+
+	Extracted digits: 76
+
+	Original number: 76
+
+Since the extracted digits (76) match the original number (76), 76 is an automorphic number.
+ 
+ 
+4. Write a C program to determine whether a given positive integer is an Armstrong number. An Armstrong number (also known as a narcissistic number or pluperfect number) is a number that is equal to the sum of its own digits each raised to the power of the number of digits. Your program should:
+ 
+i. Prompt the user to enter a positive integer.
+
+ii. Determine the number of digits in the number.
+
+iii. Calculate the sum of each digit raised to the power of the total number of digits.
+
+iv Compare the calculated sum to the original number to determine if it is an Armstrong number.
+
+v. Print "Armstrong number" if the number is an Armstrong number, otherwise print "Not an Armstrong number".
+
+[13:13] J, SHILPA
+5. Remove the duplicate elements in the given array of intergers
+ 
+i/p
+
+1 2 3 4 2 5 1
+ 
+o/p
+ 
+1 2 3 4 5
+ 
+6. Given an array of positive integers. Your task is to find the leaders in the array. An element is leader if it is greater than all the elements to its right side. And the rightmost element is always a leader.
+ 
+TESTCASE 1:
+
+Input:
+
+6
+
+6 7 4 3 5 2
+
+Output:
+
+2 5 7
+ 
+TESTCASE 2:
+
+Input:
+
+5
+
+2 6 3 8 4
+
+Output:
+
+4 8
+
