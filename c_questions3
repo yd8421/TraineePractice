@@ -1,0 +1,20 @@
+1. Given an array of integers, write a program to find all duplicate elements in the array.
+ 
+2. Write a program to remove duplicate characters from a string.
+ 
+3. Write a program to check if two strings are anagrams of each other.
+ 
+4. Find the Missing Number in an Array:
+Given an array containing n distinct numbers taken from 0, 1, 2, ..., n, write a program to find the missing number.
+ 
+5. Write a program to reverse the order of words in a given string.
+ 
+6. Write a program to check if a given string is a palindrome or not.
+ 
+7. Write a program to rotate an array of n elements to the right by k steps.
+ 
+8. Write a program to find all common elements in two given arrays.
+ 
+9. Write a program to sort an array of strings in lexicographic (dictionary) order.
+ 
+10. Write a program to merge two sorted arrays into a single sorted array.
