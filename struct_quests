@@ -1,0 +1,64 @@
+Question 1:
+Define a structure to hold the product sales information, structure will contain the product_ID and total_sales_amount. Write a program that accepts multiple product records (product_ID and total_sales_amount) and prints them in decreasing order of total_sales_amount. In case there are multiple records pertaining to the same product_id, the program should choose a single record containing the highest total_sales_amount.
+The program should be capable of accepting a multi-line input. 
+Each subsequent line of input will contain a Product record, that is, a product_ID and total_sales_amount(separated by a hyphen). The output should consist of the combination of product_ID and corresponding total_sales_amount in decreasing order of score.
+ 
+Sample Input:
+ 
+P1001-200
+P1002-150
+P1003-300
+P1001-100
+P1002-200
+P1003-50
+P1001-50
+P1002-250
+ 
+Sample Output:
+ 
+P1003-300
+P1002-250
+P1001-200
+ 
+Question2 :
+Define a structure to hold student information, including the student ID and a list of scores. Write a program that accepts multiple student records (student_ID and score) and prints the student ID and their highest average score. In case there are multiple records for the same student, the program should calculate the average of their scores. The program should print the student ID with the highest average score.
+ 
+Sample Input:
+S1001-85
+S1002-90
+S1001-78
+S1003-92
+S1002-88
+S1001-95
+S1003-84
+S1004-70
+S1002-82
+S1004-76
+ 
+Sample Output:
+ 
+ 
+S1001-86.00
+S1003-88.00
+S1002-86.67
+S1004-73.00
+ 
+Question 3:
+Define a structure to hold product inventory information, including the product ID and quantity. Write a program that accepts multiple product records (product_ID and quantity) and prints the total quantity for each product in decreasing order of total quantity. In case there are multiple records for the same product, the program should sum up the quantities.
+ 
+Sample Input:
+ 
+P1001-20
+P1002-15
+P1003-30
+P1001-10
+P1002-20
+P1003-5
+P1004-25
+P1004-15
+ 
+Sample Output:
+P1003-35
+P1004-40
+P1002-35
+P1001-30
