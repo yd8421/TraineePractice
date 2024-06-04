@@ -3,7 +3,9 @@
 #include<calcfn.h>
 
 int main(int argc, char* argv[]){
-	
+
+	extern char* str;
+	printf("%s", str);	
 	printf("\nPrinting arguements:\n");
 	for(int i=0; i<argc; i++){
 		printf("Arg %d: %s\n", i, argv[i]);
