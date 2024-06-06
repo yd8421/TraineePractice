@@ -1,0 +1,33 @@
+Q1:
+Input 1: sentence
+Input 2: character
+Input 3: word
+
+Task: Search the character in the sentence and find its position(first occurence). Store the position(-1 if 	absent). Search the word in the sentence and find its pos. Add both the position and display the sum.
+
+Output: pos1 + pos2
+
+Q2:
+Input 1: n(no of input)
+Input 2: 1.....n(lines): T1(hh|mm|ss) T2(hh|mm|ss)
+
+Task: compare T1 and T2 for each n lines, earlier if T1<T2, later if T1>T2, and equal if T1==T2
+
+Output: comp1
+	comp2
+	...
+	compn
+
+Q3:
+Input 1: multiple words
+
+Task: remove duplicates and anagrams
+
+Ouput: no. of elements left
+
+Q4:
+Input: Input a string.
+
+Task: find no of ways string can be partitioned into 2 non-empty sub strings such that no of consonents of 1st 	substr is greater than no of consonents in 2nd substr.
+
+Ouput: no of ways string can be partitioned.
