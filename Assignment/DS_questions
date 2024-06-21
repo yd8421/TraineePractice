@@ -1,0 +1,29 @@
+Data Structure Assignment: 
+1. Implement STACK to perform the below operations using arrays.
+a. push
+b. pop
+c. display
+2. Implement QUEUE to perform the below operations using arrays.
+a. enqueue
+b. dequeue
+c. display
+3. Implement circular queue using arrays.
+4. Implement Single Linked List
+5. Implement Double Linked List.
+6. Implement Circular Single Linked List
+7. Implement Circular Double Linked List
+8. Operation to be performed on SLL and DLL:
+a. Insertion -
+1. Insert at the beginning
+2. Insert at the end
+3. Insert at a given position
+4. Insert before a given position
+5. Insert after a given position
+6. Insert before a given number
+7. Insert after a given number
+8. Insert at the middle
+9. Insert at penultimate node.( The term "penultimate node" refers to the second-to-last node in a linked list. Example head -> Node1 -> Node2 -> Node3 -> Node4 -> NULL  The penultimate node in this list is Node3 because it is the node right before the last node (Node 4)
+b. Deletion -
+The above operations 8.1-8.9 on SLL and DLL has to be implemented on Deletion
+9. WAP to create a linked list of n nodes & copy the contents of the list to a file format_data.db. The number n and file name should be passed from command line.
+10. Write a complimentary program to program 9 which will read the contents from the format_data.db, recreate linked list and print the content of the linked list on to stdout.

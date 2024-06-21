@@ -31,3 +31,9 @@ Input: Input a string.
 Task: find no of ways string can be partitioned into 2 non-empty sub strings such that no of consonents of 1st 	substr is greater than no of consonents in 2nd substr.
 
 Ouput: no of ways string can be partitioned.
+
+Q5:
+Task: check if you can rearrange character of s1 to s2
+
+Q6
+Task: check if you can write str1 and st2 using characters of st3(No extra and no reusing).
