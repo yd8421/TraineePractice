@@ -2,7 +2,7 @@
 
 void myflush(void);
 void mainMenu(void);
-void regMenu(void);
+void registerUser(void);
 void login(void);
 void call(void);
 
@@ -22,28 +22,29 @@ void mainMenu(void){
 		printf("******************************************\n");
 		printf("          Welcome to Main Menu            \n");
 		printf("******************************************\n\n");
-		printf("      1. New user\n");
-		printf("      2. User Login\n");
-		printf("      3. Call\n");
-		printf("      4. exit\n");
+        	printf("\t1. Make a phone call\n");
+        	printf("\t2. Register for CFS\n");
+        	printf("\t3. Login to CFS\n");
+        	printf("\t4. Exit\n");
+		printf("\n******************************************\n");
 		
 		if(try<3){
 			printf("\nWrong input. You have %d tries left. Try Again", try+1);
 		}
-		printf("\nEnter your choice(1-4): ");
+		printf("\nEnter your choice (1-4): ");
 
 		scanf("%d", &choice);
 		myflush();
 
 		switch(choice){
 
-			case 1: regMenu();
+			case 1: call();
 				break;
 
-			case 2: login();
+			case 2: registerUser();
 				break;
 
-			case 3: call();
+			case 3: login();
 				break;
 
 			case 4: 
@@ -58,6 +59,6 @@ void mainMenu(void){
 }
 
 void login(void){}
-void regMenu(void){}
+void registerUser(void){}
 void call(void){}
 
